@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+ 
+    margin: 0;
+    padding: 0;
+    background: url(pexels-chevanon-photography-302896.jpg) ;
+    background-size: 50%;
+}
+.headder
+{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    color:darkcyan;
+    width:400px;
+    height: 420px;
+    background-color: black;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    gap: 6%;
+    
+}
+.headder h1{
+    color: brown;
+    padding-left: 2rem;
+    align-items: center;
+}
+.headder img{
+    width:60px;
+    height:50px;
+    border-radius: 40%;
+}
+#lable
+{
+   
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap:20%;
+    text-align: center;
+}
+.login
+{
+    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+button{
+    background-color: grey;
+}
+#forget
+{
+     
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap:.8rem;
+}
+#pagelist 
+{
+   
+    align-items: center;
+    gap: 3rem ;
+    justify-content: space-between;
+    padding: 2rem;
+   color: brown;
+}
+#footer
+{
+    color: brown;
+    
+        position: absolute;
+        bottom: 0;
+        left: 0;
+ 
+}

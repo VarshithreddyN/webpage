@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <style>
+        center
+        {
+            color: rgb(189, 82, 43);
+            font-size:xx-large;
+
+        }
+        .headder{
+           
+            display: flex; 
+           width: 100%;
+        }
+        .footer{
+            display: flex;
+            width: 100%;
+        }
+
+        #block1
+        {
+            
+            width:50%;
+            background-color:black;
+            display: flex;
+            flex-direction: column;
+            top:10%
+            
+           
+        }
+        #innerblock1
+        {
+            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 2rem;
+        }
+        #innerblock2
+        {
+            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 2rem;
+        }
+       
+        .block2
+        {
+            color: black;
+            height:400px;
+            width:50%;
+            background-color:aquamarine;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            
+        }
+        .block3
+        {
+            height:400px;
+            width:50%;
+            background-color:rgb(166, 25, 25);
+            
+        }
+        .block4
+        {
+            height:400px;
+            width:50%;
+            background-color:rgb(230, 221, 221);
+            
+        }
+    </style>
+</head>
+<body>
+    <CENTER><b>SIGN -IN FORM</b><CENTER>
+    <section class="headder">
+        
+        <div id="block1">
+          
+            <h2>Personal Deatils</h2>
+            <form id="innerblock1">
+                <label for="firstname">First Name</label>
+                <input type="text" id="firstname" placeholder="First name">
+                <label for="LAST name">Last Name</label>
+                <input type="text" id="LAST name" placeholder="LAST name">
+                <label for="phone">Phone</label>
+                <input type="tel" id=" phone" placeholder="mobile">
+                Address:<textarea type="text" >Address</textarea>
+            </form>
+        </div>
+        <div class="block2">
+            <h2></h2>
+            <form id="innerblock2">
+                <label for="nationlaity">Nationlaity</label>
+                <input type="text" id="nationlaity" placeholder="nationlaity">
+                <label for="Password">Password</label>
+                <input type="password" id="password" placeholder="password">
+                <label for="repassword">Confirm password</label>
+                <input type="password" id=" repassword" placeholder="Reente rpassword">
+                
+            </form>
+        </div>
+      
+    </section>
+    <button type="submit"> SUBMIT</button>
+ 
+    
+</body>
+</html>

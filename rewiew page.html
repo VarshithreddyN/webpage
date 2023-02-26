@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rewiew</title>
+    <style>
+        body{
+             margin: 0;
+             padding: 0;
+             background: url(ipswich-one-mile-1.jpg)  ;
+           }
+        .box
+        {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color:brown;
+        }
+        .rewiew{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: top;
+          background-color: white;
+            background-size: 100%;
+            width:400px;
+            height: 420px;
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+            border-radius: 2px;
+            gap:2rem;    
+        }
+
+        .rate 
+        {
+            align-items: top;
+            justify-content: center;
+           color:blue;
+        }
+        .location 
+        {
+            color: cornflowerblue;
+        }
+        .service
+        {
+            align-items: top;
+            justify-content: center;
+           color:blue;
+        }
+        .clean
+        {
+            align-items: top;
+            justify-content: center;
+           color:rgb(190, 60, 60);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>REWIEW PAGE</h1>
+    </div>
+    <div class="rewiew">   
+    <div class="rate">
+        <p><b>HOW was the coffie</b></p>
+        <input type="radio" id="star5" name="rate" value="5" />
+        <label for="star5" title="text">5 stars</label>
+        <input type="radio" id="star4" name="rate" value="4" />
+        <label for="star4" title="text">4 stars</label>
+        <input type="radio" id="star3" name="rate" value="3" />
+        <label for="star3" title="text">3 stars</label>
+        <input type="radio" id="star2" name="rate" value="2" />
+        <label for="star2" title="text">2 stars</label>
+        <input type="radio" id="star1" name="rate" value="1" />
+        <label for="star1" title="text">1 star</label>
+      </div>
+      <div class="location">
+        <p><b>HOW is the place</b></p>
+        <input type="radio" id="star5" name="location" value="5" />
+        <label for="star5" title="text">5 stars</label>
+        <input type="radio" id="star4" name="location" value="4" />
+        <label for="star4" title="text">4 stars</label>
+        <input type="radio" id="star3" name="location" value="3" />
+        <label for="star3" title="text">3 stars</label>
+        <input type="radio" id="star2" name="location" value="2" />
+        <label for="star2" title="text">2 stars</label>
+        <input type="radio" id="star1" name="location" value="1" />
+        <label for="star1" title="text">1 star</label>
+      </div>
+      <div class="service">
+        <p><b>HOW is the Service</b></p>
+        <input type="radio" id="star5" name="service" value="5" />
+        <label for="star5" title="text">5 stars</label>
+        <input type="radio" id="star4" name="service" value="4" />
+        <label for="star4" title="text">4 stars</label>
+        <input type="radio" id="star3" name="service" value="3" />
+        <label for="star3" title="text">3 stars</label>
+        <input type="radio" id="star2" name="service" value="2" />
+        <label for="star2" title="text">2 stars</label>
+        <input type="radio" id="star1" name="service" value="1" />
+        <label for="star1" title="text">1 star</label>
+      </div>
+      <div class="clean">
+        <p><b>HOW clean is the cafe</b></p>
+        <input type="radio" id="star5" name="clean" value="5" />
+        <label for="star5" title="text">5 stars</label>
+        <input type="radio" id="star4" name="clean" value="4" />
+        <label for="star4" title="text">4 stars</label>
+        <input type="radio" id="star3" name="clean" value="3" />
+        <label for="star3" title="text">3 stars</label>
+        <input type="radio" id="star2" name="clean" value="2" />
+        <label for="star2" title="text">2 stars</label>
+        <input type="radio" id="star1" name="clean" value="1" />
+        <label for="star1" title="text">1 star</label>
+      </div>
+      <div class="submit">
+        <form>
+        <button type="submit" width="200" height="400">SUBMIT</button>
+    </form>
+    </div>
+      </div>
+      
+      
+</body>
+</html>
